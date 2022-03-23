@@ -49,6 +49,8 @@ setInterval(() => {
     
     const domainsArr = [...domainsMap].sort((a,b) => b[1] -a[1]);
     console.log(`Total numbers of wikipedia domains updated: ${domainsArr.length}`);
+    console.log('----------------------------------------------------------------');
+
     console.log('');
     for(let domain of domainsArr){
         console.log(`${domain[0]}: ${domain[1]} pages updated`);
@@ -57,6 +59,7 @@ setInterval(() => {
     
     const usersArr = [...usersMap].sort((a,b) => b[1]-a[1]);
     console.log(`Users who made changes to en.wikipedia.org`);
+    console.log('------------------------------------------');
     console.log('');
     for(let user of usersArr){
         console.log(`${user[0]}: ${user[1]}`);
@@ -66,4 +69,4 @@ setInterval(() => {
     
     domainsMap.clear();
     usersMap.clear();
-},5000);
+},60000);

@@ -89,6 +89,7 @@ function printOutput(fiveMinArray){
     sortArray(userArr);
 
     console.log(`Total numbers of wikipedia domains updated: ${domainArr.length}`);
+    console.log('---------------------------------------------------------------');
     console.log('');
     for(let domain of domainArr){
         console.log(`${domain[0]}: ${domain[1]} pages updated`);
@@ -96,6 +97,7 @@ function printOutput(fiveMinArray){
     console.log('');
 
     console.log(`Users who made changes to en.wikipedia.org`);
+    console.log('------------------------------------------');
     console.log('');
     for(let user of userArr){
         console.log(`${user[0]}: ${user[1]}`);
@@ -110,4 +112,4 @@ setInterval(() => {
     usersMap.clear();
     fiveMinDomainsMap.clear();
     fiveMinUsersMap.clear();
-},5000);
+},60000);
