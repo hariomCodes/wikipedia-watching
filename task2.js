@@ -110,4 +110,4 @@ setInterval(() => {
     usersMap.clear();
     fiveMinDomainsMap.clear();
     fiveMinUsersMap.clear();
-},6000);
+},5000);

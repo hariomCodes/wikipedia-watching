@@ -66,4 +66,4 @@ setInterval(() => {
     
     domainsMap.clear();
     usersMap.clear();
-},60000);
+},5000);
