@@ -9,4 +9,4 @@ For the project to run Node.js must be installed first.
 5. Now in the terminal write `node task1.js` . This will run the first task and the output will be displayed on the terminal.
 6. Similarly, in the terminal, write `node task2.js` and press enter and the output will be displayed in the terminal.
 
-For demonstration purpose, I have reduced the time from 1 minute to 5 seconds.
+To end the code write ### `Ctrl + C`
